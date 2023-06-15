@@ -17,3 +17,7 @@ git clone https://github.com/RMX2020-Resources/android_device_mediatek_sepolicy_
 # Hardware 
 rm -rf hardware/mediatek
 git clone https://github.com/RMX2020-Resources/hardware_mediatek hardware/mediatek -b fifteen --depth=1
+
+# Viper4FX
+rm -rf packages/apps/ViPER4AndroidFX
+git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
