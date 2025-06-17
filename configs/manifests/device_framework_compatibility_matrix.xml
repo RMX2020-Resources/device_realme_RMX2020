@@ -65,12 +65,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.atci</name>
-        <version>1.0</version>
-        <interface>
-            <name>IAtcid</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </compatibility-matrix>
