@@ -168,6 +168,11 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
     libavservices_minijail.vendor
 
+# Matlog
+ifeq ($(TARGET_BUILD_VARIANT),user)
+TARGET_DISABLE_MATLOG := true
+endif
+
 # Neutral Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
