@@ -270,6 +270,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     PowerOffAlarm
 
+# Priv-keys
+-include vendor/infinity-priv/keys/keys.mk
+
 # Properties
 -include $(DEVICE_PATH)/configs/props/vendor_logging_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
